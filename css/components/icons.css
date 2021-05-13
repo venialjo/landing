@@ -1,0 +1,11 @@
+.icon {
+  font-size: 50px;
+  color: silver;
+  text-decoration: none;
+  transition: 0.5s
+}
+
+.icon:hover {
+  color: white;
+  text-shadow: 0 0 4px white;
+}

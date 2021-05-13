@@ -1,0 +1,20 @@
+#music-link {
+  height: 200px;
+  width: 200px;
+  font-size: 80px;
+  color: white;
+  background-color: #010630;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px black;
+  transition: 0.5s;
+}
+
+#music-link:hover {
+  font-size: 85px;
+  background-color: #131D58;
+  color: white;
+  text-shadow: 0 0 8px white;
+}

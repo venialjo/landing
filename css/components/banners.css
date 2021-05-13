@@ -1,0 +1,81 @@
+/* Fonts */
+@font-face {
+  font-family: "california";
+  src: url("../../fonts/california-script.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "blacksword";
+  src: url("../../fonts/blacksword.otf");
+}
+
+@font-face {
+  font-family: "ds-digit";
+  src: url("../../fonts/ds-digit.ttf") format('truetype');
+}
+
+/* Banners */
+.top {
+  background-image: url("../../images/outrun.jpeg");
+}
+
+.banner {
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-content {
+  color: white;
+  font-family: blacksword;
+  font-size: 60px;
+  text-align: left;
+  text-shadow: 0 0 8px white;
+}
+
+.mid {
+  font-family: ds-digit;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 6px white;
+  background-color: #071644;
+  height: 600px;
+}
+
+.mid h2 {
+  text-align: center;
+  padding: 64px 0px;
+  margin: 0px;
+  text-decoration: underline;
+}
+
+.mid-content {
+  color: white;
+  font-family: blacksword;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 0 0 8px white;
+}
+
+.footer {
+  text-align: center;
+  font-family: Open Sans;
+  color: white;
+  font-size: 30px;
+  background-color: black;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer li {
+  display: inline;
+  padding: 5px;
+}
+
+.footer ul {
+  margin: 0px;
+}
